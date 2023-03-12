@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorenzo Petrucci</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="mobile-nav">
+        <div class="title">
+            <h1>Command line bio</h1>
+        </div>
+        <div class="mobile-menu">
+            <button>Menu</button>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="container"></div>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li>
+                    <div class="item-title expand">
+                        What's this?
+                    </div>
+                    <div class="item-content">
+                        <p class="menu-text">
+                            This is a terminal simulation that give some of my info
+                            entering as input the right command.
+                        </p>
+                        <p class="menu-text">
+                            Type 'help' as input to start.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-title expand">
+                        Text speed
+                    </div>
+                    <div class="slider-container">
+                        <input type="range" min="1" max="100" value="50" class="slider">
+                        <p class="menu-text">
+                            Value: <span class="slider-output"></span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-title expand">
+                        Text color
+                    </div>
+                    <div class="color-picker">
+                        <div>
+                            <input type="color" name="input" value="#ffffff" class="input-color">
+                            <label for="input" class="menu-text">Input</label>
+                        </div>
+                        <div>
+                            <input type="color" name="output"  value="#66ff66" class="output-color">
+                            <label for="output" class="menu-text">Output</label>
+                        </div>
+                        <div>
+                            <input type="color" name="screen" value="#282828" class="screen-color">
+                            <label for="screen" class="menu-text">Screen</label>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="javascript/data.js"></script>
+    <script src="javascript/index.js"></script>
+</body>
+</html>
