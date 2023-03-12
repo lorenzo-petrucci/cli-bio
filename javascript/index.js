@@ -2,6 +2,7 @@ const container = document.querySelector('.container');
 const input = document.createElement('input');
 input.classList = 'input';
 input.setAttribute('placeholder', 'Type a command...');
+input.setAttribute('autocapitalize', 'none');
 
 window.addEventListener("load", function() {
     printOutput(commandList['hello']);
