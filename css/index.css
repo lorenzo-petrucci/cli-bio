@@ -90,6 +90,7 @@ h1 {
     color: #ffffff;
     font-family: monospace;
     font-size: 1em;
+    text-transform: lowercase;
 }
 
 .enter-pressed {
